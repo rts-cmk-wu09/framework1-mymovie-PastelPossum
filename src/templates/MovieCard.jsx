@@ -1,4 +1,6 @@
-import Image from "../components/Image"
+import Image from "../components/Image";
+import HeadingThree from "../components/HeadingThree";
+import MovieRating from "../components/MovieRating";
 
 //SFC
 const MovieCard = () => {
@@ -6,6 +8,8 @@ const MovieCard = () => {
     <article>
       <figure>
         <Image />
+        <HeadingThree />
+        <MovieRating />
       </figure>
     </article>
   );
