@@ -1,4 +1,6 @@
 import "./App.css";
+import HeadingTwo from "./components/HeadingTwo";
+import SeeMoreBtn from "./components/SeeMoreBtn";
 import HeadingOne from "./components/headingOne";
 import MovieCard from "./templates/MovieCard";
 
@@ -10,7 +12,15 @@ function App() {
       </header>
       <main>
         <section>
-          <MovieCard />
+          <div className="flexContainer space-between">
+            <HeadingTwo />
+            <SeeMoreBtn />
+          </div>
+          <div className="flexContainer">
+            <MovieCard />
+            <MovieCard />
+            <MovieCard />
+          </div>
         </section>
         <section></section>
       </main>
