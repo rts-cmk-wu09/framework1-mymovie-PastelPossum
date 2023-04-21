@@ -38,4 +38,11 @@ h2 {
 
 .movieCardContainer {
   margin: 0 -2rem;
+  padding-left: 2rem;
+  gap: 1rem;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
 }
