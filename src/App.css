@@ -25,6 +25,7 @@ h2 {
 
 .space-between {
   justify-content: space-between;
+  align-items: center;
 }
 
 .scroll {
@@ -38,5 +39,5 @@ h2 {
 }
 
 .movieCardContainer {
-margin: 0 -2rem;
+  margin: 0 -2rem;
 }
