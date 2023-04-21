@@ -20,3 +20,13 @@ h1,h2 {
 .space-between {
 justify-content: space-between;
 }
+
+.scroll {
+  overflow: scroll;
+  -ms-overflow-style: none; /*Chrome*/
+  scrollbar-width: none; /*Firefox*/
+}
+
+.scroll::-webkit-scrollbar {
+  display: none;
+}
